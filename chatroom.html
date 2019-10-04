@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GlitChat | RedGlitch.net</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/glapyicon.css">
+</head>
+
+<body>
+
+    <div class="container messages-area">
+        <div class="row">
+            <div class="col">
+                <ul id="messages"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="texting-area">
+                <div class="input-group mb-3">
+                    <input id="m" autocomplete="off" type="text" class="form-control" placeholder="Mesajı buraya giriniz..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="sendBt"> <span class="glyphicon glyphicon-send"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<script>
+    // Enter Butonu yazıyı gönder
+    var input = document.getElementById("m");
+    input.addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("sendBt").click();
+        }
+    });
+</script>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/public/js/jquery-3.4.1.min.js"></script>
+<script src="/public/js/main.js"></script>
+
+</html>

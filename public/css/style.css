@@ -1,0 +1,321 @@
+/* ----- Theme ------ */
+
+:root {
+    /* Colors */
+    --turkuaz: #00f0ff;
+    --pembe: #ff003c;
+    --sari: #f8f200;
+}
+
+
+/* ----- Fonts ------ */
+
+@font-face {
+    font-family: BlenderProBook;
+    src: url(/public/fonts/BlenderPro-Book.woff2) format("woff2"), url(/public/fonts/BlenderPro-Book.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BlenderProBold;
+    src: url(/public/fonts/BlenderPro-Bold.woff2) format("woff2"), url(/public/fonts/BlenderPro-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* ------- TEXTS -------- */
+
+
+/* Başlıklar */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: BlenderProBold;
+}
+
+
+/* düz Yazılar */
+
+p,
+span,
+li,
+ul {
+    font-family: BlenderProBook;
+}
+
+
+/* ----- Buton ----- */
+
+
+/* Button Large BlackCyan */
+
+.rg-bt-l-blackcyan,
+.rg-bt-l-blackcyan:link,
+.rg-bt-l-blackcyan:visited {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 8px 35px 8px 35px;
+    font-size: 35px;
+    font-family: BlenderProBold;
+    background: #000;
+    color: var(--turkuaz);
+    border: 0px solid var(--turkuaz);
+    outline: 0!important;
+    letter-spacing: 1px;
+}
+
+.rg-bt-l-blackcyan:hover {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    font-size: 35px;
+    font-family: BlenderProBold;
+    background: #000;
+    color: var(--pembe);
+    padding: 6px 33px 6px 33px;
+    border: 2px solid var(--pembe);
+    outline: 0!important;
+    letter-spacing: 1px;
+}
+
+.rg-bt-l-blackcyan:active {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    font-size: 35px;
+    font-family: BlenderProBold;
+    background: #000;
+    color: var(--pembe);
+    padding: 4px 31px 4px 31px;
+    border: 4px solid var(--pembe);
+    outline: 0!important;
+    letter-spacing: 1px;
+}
+
+
+/* Button Medium BlackCyan */
+
+.rg-bt-m-blackcyan,
+.rg-bt-m-blackcyan:link,
+.rg-bt-m-blackcyan:visited {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 7px 26px 7px 26px;
+    font-size: 26px;
+    font-family: BlenderProBold;
+    background: #000;
+    color: var(--turkuaz);
+    border: 0px solid var(--turkuaz);
+    outline: 0!important;
+    letter-spacing: 1px;
+}
+
+.rg-bt-m-blackcyan:hover {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 6px 25px 6px 25px;
+    font-size: 26px;
+    font-family: BlenderProBold;
+    background: #000;
+    color: var(--pembe);
+    border: 1px solid var(--pembe);
+    outline: 0!important;
+    letter-spacing: 1px;
+}
+
+.rg-bt-m-blackcyan:active {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 24px 5px 24px;
+    font-size: 26px;
+    font-family: BlenderProBold;
+    background: #000;
+    color: var(--pembe);
+    border: 2px solid var(--pembe);
+    outline: 0!important;
+    letter-spacing: 1px;
+}
+
+
+/* Button Small BlackCyan */
+
+.rg-bt-s-blackcyan,
+.rg-bt-s-blackcyan:link,
+.rg-bt-s-blackcyan:visited {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 4px 16px 4px 16px;
+    font-size: 17px;
+    font-family: BlenderProBook;
+    background: #000;
+    color: var(--turkuaz);
+    border: 0px solid var(--turkuaz);
+    outline: 0!important;
+    letter-spacing: 0px;
+}
+
+.rg-bt-s-blackcyan:hover {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 3px 15px 3px 15px;
+    font-size: 17px;
+    font-family: BlenderProBook;
+    background: #000;
+    color: var(--pembe);
+    border: 1px solid var(--pembe);
+    outline: 0!important;
+    letter-spacing: 0px;
+}
+
+.rg-bt-s-blackcyan:active {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    padding: 2px 14px 2px 14px;
+    font-size: 17px;
+    font-family: BlenderProBook;
+    background: #000;
+    color: var(--pembe);
+    border: 2px solid var(--pembe);
+    outline: 0!important;
+    letter-spacing: 0px
+}
+
+
+/* Body */
+
+body {
+    background-image: url('/public/img/wcemptybg.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% auto;
+    background-color: #000;
+}
+
+.messages-area {
+    margin-top: 5px;
+    position: relative;
+    min-height: 90vh;
+    max-height: 90vh;
+    background-image: url('/public/img/cpyellowbg.png');
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto 100vh;
+    background-color: #000;
+    overflow: auto;
+}
+
+
+/* !!!!!! Mesaj Boxlar !!!!!! */
+
+
+/*  Mesaj Box o  */
+
+.message-box-o {
+    margin: 3px 0px 0px -30px;
+    background-color: #000;
+    padding: 6px 6px 6px 10px;
+    border-radius: 7px;
+    color: #00f0ff;
+    width: 80%;
+    font-family: BlenderProBook;
+    font-size: 20px;
+    position: relative;
+    bottom: 0px;
+    float: left;
+}
+
+
+/*  Mesaj Box ben  */
+
+.message-box-me {
+    margin: 3px 0px 0px -30px;
+    background-color: #000;
+    padding: 6px 6px 6px 10px;
+    border-radius: 7px;
+    color: #00f0ff;
+    width: 80%;
+    font-family: BlenderProBook;
+    font-size: 20px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+}
+
+.texting-area {
+    background-color: #000;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+}
+
+
+/* !!!!!! INPUTS !!!!!! */
+
+input {
+    border: 0px;
+    min-height: 40px;
+    min-width: 300px;
+    background-color: #000;
+    color: #00f0ff;
+    font-family: BlenderProBold;
+    padding-left: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    user-select: none;
+    outline: 0!important;
+}
+
+
+/* Giriş Card */
+
+.usr-name-giris {
+    margin-top: 70px;
+    padding: 10px 10px 10px 10px;
+    color: #000;
+    text-align: center;
+}
+
+.usr-name-giris h1 {
+    font-size: 60px;
+}
+
+.usr-name-giris span {
+    font-size: 25px;
+}
+
+.usr-name-giris button {}
+
+.giris-card {
+    background-color: rgb(238, 255, 0);
+    height: 100vh;
+    background-image: url('/public/img/cpyellowbg.png');
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: auto 100vh;
+    background-color: #000;
+    overflow: hidden;
+}

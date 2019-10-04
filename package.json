@@ -1,0 +1,29 @@
+{
+  "name": "wixchat",
+  "version": "1.0.0",
+  "description": "Doğukan \" WIXORICE \" Alyanak Chat App Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "wixorice",
+    "dogukan",
+    "alyanak",
+    "dgknalynk"
+  ],
+  "author": "Doğukan \" WIXORICE \" ALYANAK",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jquery": "^3.4.1",
+    "node": "^12.9.1",
+    "socketio": "^1.0.0"
+  }
+}
